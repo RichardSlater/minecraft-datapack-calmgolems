@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:iron_golem,tag=!safeGolem] run data merge entity @s {Tags:["safeGolem"],PlayerCreated:1}
